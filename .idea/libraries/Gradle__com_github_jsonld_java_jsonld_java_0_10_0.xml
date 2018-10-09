@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.jsonld-java:jsonld-java:0.10.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.jsonld-java/jsonld-java/0.10.0/4d17502d88d9a5d07f348481cd36ae5969e54a3c/jsonld-java-0.10.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.jsonld-java/jsonld-java/0.10.0/622034b99ff0549b927da0fec2c1b50de67b1352/jsonld-java-0.10.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.topbraid:shacl:1.0.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.topbraid/shacl/1.0.1/1dd316c1c98f211e1a13174d3af04f18d38135c/shacl-1.0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.topbraid/shacl/1.0.1/892b241ade28ae05508179cc2af4622e2531018e/shacl-1.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
