@@ -15,11 +15,11 @@ public class ShaclValidation {
     private static Logger logger = LoggerFactory.getLogger(ShaclValidation.class);
     private static final String CONFORMS  = "CONFORMS";
 
-    public String validateData(String data, String shape){
+    public String validateData(String data, String dataFormat, String shape, String shapeFormat){
         Model dataModel = JenaUtil.createDefaultModel();
-        dataModel.read(new ByteArrayInputStream(data.getBytes()), null, "TTL");
+        dataModel.read(new ByteArrayInputStream(data.getBytes()), null, dataFormat);
         Model shapeModel  = JenaUtil.createDefaultModel();
-        shapeModel.read(new ByteArrayInputStream(shape.getBytes()), null, "TTL");
+        shapeModel.read(new ByteArrayInputStream(shape.getBytes()), null, shapeFormat);
         Resource reportResource = ValidationUtil.validateModel(dataModel, shapeModel, true);
         boolean conforms = reportResource.getProperty(SH.conforms).getBoolean();
         logger.trace("Conforms = " + conforms);

@@ -14,7 +14,7 @@ public class ShaclValidationTest {
         String data = getFile("person.ttl");
         String shapes = getFile("personshape.ttl");
         ShaclValidation shaclValidation = new ShaclValidation();
-        String results = shaclValidation.validateData(data, shapes);
+        String results = shaclValidation.validateData(data, "TTL", shapes, "TTL");
         System.out.println(results);
     }
 
